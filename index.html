@@ -14,12 +14,9 @@
             background-color: #222222; /* Dark Charcoal */
             color: #ffffff; /* White text */
         }
-        /* Custom styles for the hero image to ensure it covers and is responsive */
-        .hero-background {
-            background-image: url('quick_dirty_ai_consult_image.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+        /* Custom styles for the hero section background */
+        .hero-background-color {
+            background-color: #2E2E2E; /* Mid Charcoal for the hero section background */
         }
     </style>
 </head>
@@ -27,8 +24,8 @@
 
     <!-- Hero Section -->
     <section class="relative h-screen flex items-center justify-center text-center px-4 py-16 overflow-hidden">
-        <!-- Background image from user upload, adjusted for display -->
-        <div class="absolute inset-0 hero-background">
+        <!-- Solid background color instead of an image with text -->
+        <div class="absolute inset-0 hero-background-color">
             <div class="absolute inset-0 bg-black opacity-70"></div> <!-- Overlay for text readability -->
         </div>
 
@@ -135,3 +132,4 @@
 
 </body>
 </html>
+
